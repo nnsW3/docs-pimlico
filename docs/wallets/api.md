@@ -23,7 +23,6 @@ This function checks whether a UserOperation can be sponsored by the Paymaster s
   - `paymasterAndData`: The address of the paymaster smart contract account that will sponsor this userOperation as well as any additional data required by the paymaster smart contract. This must be left blank, as this is what the wallet operator will have to fill out with the result of this call for the userOperation to be sponsored.
   - `signature`: The signature of this userOperation by its signer.
 - `entryPoint`: The EntryPoint contract address the userOperation is being submitted to.
-- `chainId`: The chainId of the chain this User Operation is being submitted on.
 - `referralAddress`: A 20-byte hex address, likely owned by the wallet operator, that will accrue any referral fees from sponsored User Operations.
 
 ### Returns
@@ -57,9 +56,6 @@ Request:
         },
         {
           "entryPoint": "0x0987654321098765432109876543210987654321"
-        },
-        {
-          "chainId": "0x01"
         },
         {
           "referralAddress": "0x2109876543210987654301098765432198765432"
