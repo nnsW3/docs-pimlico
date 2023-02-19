@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/pimlicolabs/docs/',
+            'https://github.com/pimlicolabs/docs/tree/main/',
         },
         /*
         blog: {
@@ -74,6 +74,7 @@ const config = {
         logo: {
           alt: 'Pimlico logo',
           src: 'img/logo.png',
+          href: "https://pimlico.io",
         },
         items: [
           {
