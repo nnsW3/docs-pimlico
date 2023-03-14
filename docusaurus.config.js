@@ -68,7 +68,7 @@ const config = {
         defaultMode: 'dark'
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/pimlico-social-card.jpg',
       navbar: {
         title: 'Pimlico',
         logo: {
