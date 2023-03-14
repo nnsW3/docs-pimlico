@@ -22,8 +22,8 @@ This function checks whether a User Operation can be sponsored by Pimlico's Paym
   - `nonce`: The nonce of the sender smart contract account.
   - `initCode`: The init code of the sender smart contract account.
   - `callData`: The data to be sent to the sender smart contract account during execution.
-  - `callGas`: The gas limit for the execution of the callData.
-  - `verificationGas`: The gas limit for verifying the signature and nonce of the User Operation.
+  - `callGasLimit`: The gas limit for the execution of the callData.
+  - `verificationGasLimit`: The gas limit for verifying the signature and nonce of the User Operation.
   - `preVerificationGas`: The gas limit for any operations before verifying the signature and nonce of the User Operation.
   - `maxFeePerGas`: The maximum fee per gas unit that can be paid by this User Operation.
   - `maxPriorityFeePerGas`: The maximum priority fee per gas unit that can be paid by this User Operation.
@@ -53,8 +53,8 @@ Request:
             "nonce": "0x1",
             "initCode": "",
             "callData": "",
-            "callGas": "0x100000",
-            "verificationGas": "0x20000",
+            "callGasLimit": "0x100000",
+            "verificationGasLimit": "0x20000",
             "preVerificationGas": "0x10000",
             "maxFeePerGas": "0x3b9aca00",
             "maxPriorityFeePerGas": "0x3b9aca00",
@@ -99,8 +99,8 @@ Note: This function does not check whether the User Operation is will be valid w
   - `nonce`: The nonce of the sender smart contract account.
   - `initCode`: The init code of the sender smart contract account.
   - `callData`: The data to be sent to the sender smart contract account during execution.
-  - `callGas`: The gas limit for the execution of the callData.
-  - `verificationGas`: The gas limit for verifying the signature and nonce of the User Operation.
+  - `callGasLimit`: The gas limit for the execution of the callData.
+  - `verificationGasLimit`: The gas limit for verifying the signature and nonce of the User Operation.
   - `preVerificationGas`: The gas limit for any operations before verifying the signature and nonce of the User Operation.
   - `maxFeePerGas`: The maximum fee per gas unit that can be paid by this User Operation.
   - `maxPriorityFeePerGas`: The maximum priority fee per gas unit that can be paid by this User Operation.
@@ -127,8 +127,8 @@ Request:
             "nonce": "0x1",
             "initCode": "",
             "callData": "",
-            "callGas": "0x100000",
-            "verificationGas": "0x20000",
+            "callGasLimit": "0x100000",
+            "verificationGasLimit": "0x20000",
             "preVerificationGas": "0x10000",
             "maxFeePerGas": "0x3b9aca00",
             "maxPriorityFeePerGas": "0x3b9aca00",
