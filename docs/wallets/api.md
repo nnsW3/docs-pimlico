@@ -18,8 +18,8 @@ This function checks whether a User Operation can be sponsored by Pimlico's Paym
 ### Parameters
 
 - `userOperation`: A User Operation struct that contains information about the action to be executed through a smart contract account. It has the following fields:
-  - `sender`: The address of the sender smart contract account.
-  - `nonce`: The nonce of the sender smart contract account.
+  - `sender`: The address of the sender's smart contract account.
+  - `nonce`: The nonce of the sender's smart contract account.
   - `initCode`: The init code of the sender smart contract account.
   - `callData`: The data to be sent to the sender smart contract account during execution.
   - `callGasLimit`: The gas limit for the execution of the callData.
@@ -95,8 +95,8 @@ Note: This function does not check whether the User Operation is will be valid w
 ### Parameters
 
 - `userOperation`: A User Operation struct that contains information about the action to be executed through a smart contract account. It has the following fields:
-  - `sender`: The address of the sender smart contract account.
-  - `nonce`: The nonce of the sender smart contract account.
+  - `sender`: The address of the sender's smart contract account.
+  - `nonce`: The nonce of the sender's smart contract account.
   - `initCode`: The init code of the sender smart contract account.
   - `callData`: The data to be sent to the sender smart contract account during execution.
   - `callGasLimit`: The gas limit for the execution of the callData.
