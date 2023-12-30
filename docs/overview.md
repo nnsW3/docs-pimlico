@@ -5,7 +5,7 @@ sidebar_position: 1
 # Overview
 
 # Account Abstraction
-Account abstraction is a feature that allows users to customize their Ethereum accounts with smart contract logic. It simplifies the account system by reducing Ethereum’s two types of accounts (Externally Owned Accounts and Contract Accounts) to a single type - Contract Accounts. The resulting contract accounts will be able to initiate transactions, pay transaction fees, and have more flexibility and security than regular accounts.
+Account abstraction is a feature that allows users to customize their Ethereum accounts with smart contract logic. It simplifies the accounting system by reducing Ethereum’s two types of accounts (Externally Owned Accounts and Contract Accounts) to a single type - Contract Accounts. The resulting contract accounts will be able to initiate transactions, pay transaction fees, and have more flexibility and security than regular accounts.
 
 ## Why is account abstraction important?
 Account abstraction is important for several reasons:
